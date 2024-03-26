@@ -1,0 +1,70 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-image: url("gym.2.jpg");
+  background-size: 100%;
+  color: wheat;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+nav h1 {
+  font-size: 50px;
+}
+nav span {
+  color: rgb(114, 40, 40);
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+ul button {
+  width: 100px;
+  height: 34px;
+  background-color: rgb(156, 34, 34);
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 3px;
+}
+ul li a {
+  margin-inline: 30px;
+  font-size: 25px;
+}
+ul li a:hover {
+  border-bottom: 3px solid rgb(63, 63, 133);
+  border-radius: 3px;
+  margin-top: 2px;
+  cursor: pointer;
+  font-size: 27px;
+}
+.text {
+  margin-left: 7%;
+  margin-top: 180px;
+}
+.text h1 {
+  font-size: 100px;
+}
+.text p {
+  font-size: 27px;
+  margin-top: 20px;
+}
+.text button {
+  width: 170px;
+  height: 44px;
+  background-color: red;
+  color: white;
+  border: none;
+  margin-top: 50px;
+  font-size: 25px;
+}
+.text button:hover {
+  border: 3px solid white;
+  background-color: rgb(136, 78, 78);
+  cursor: pointer;
+}
